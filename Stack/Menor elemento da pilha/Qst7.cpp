@@ -121,10 +121,18 @@ int main(){
                 objPilha.empilha(num);
                 break;
             case 'd':
-                std::cout << objPilha.desempilha()  << "\n";
+                try {
+                    std::cout << objPilha.desempilha() << "\n";
+                } catch (const std::runtime_error& e) {
+                    std::cout << e.what() << "\n";
+                }
                 break;
             case 'm':
-                std::cout << objPilha.menorValor() << "\n";
+                try {
+                    std::cout << objPilha.menorValor() << "\n";
+                } catch (const std::runtime_error& e) {
+                    std::cout << e.what() << "\n";
+                }
                 break;
             case 's':
                 objPilha.limpaPilha();
