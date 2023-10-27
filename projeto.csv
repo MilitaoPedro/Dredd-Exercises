@@ -1,0 +1,7 @@
+#identificador, nome, quantidade de cursos, estado, ranking melhores universidades do Brasil
+5
+UFLA,"Universidade Federal de Lavras",38,MG,33
+USP,"Universidade de São Paulo",246,SP,1
+UNICAMP,"Universidade de Campinas",66, SP,2
+UFRJ,"Universidade Federal do Rio de Janeiro",176,RJ,3
+UFMG,"Universidade Federal de Minas Gerais",91,MG,6
