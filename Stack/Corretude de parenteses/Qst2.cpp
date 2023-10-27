@@ -1,9 +1,6 @@
 #include <iostream>
 
-using namespace std;
-
 class noh{
-
     friend class pilha; 
     
     private:
@@ -52,7 +49,7 @@ int pilha::tamanho(){
 }
 
 void pilha::imprimeTopo(){
-    cout << this->mTopo->mPosicao;
+    std::cout << this->mTopo->mPosicao;
 }
 
 void pilha::empilha(int valor){
@@ -79,10 +76,10 @@ int pilha::desempilha(){
 }
 
 int main(){
-    string linha;
+    std::string linha;
     pilha parentesisAberto;
 
-    getline(cin, linha);
+    getline(std::cin, linha);
 
     const int tam = linha.length();
 
@@ -94,7 +91,7 @@ int main(){
             // Checa se existe um parentêsis aberto para o que foi fechado, se sim, o remove.
             // Senão, imprime a posição em que o parentêsis fechado foi encontrado
             if(parentesisAberto.desempilha() < 0){
-                cout << i;
+                std::cout << i;
                 return 0;
             }
         }
@@ -103,7 +100,7 @@ int main(){
     if(parentesisAberto.tamanho() > 0){
         parentesisAberto.imprimeTopo();
     } else {
-        cout << "correto";
+        std::cout << "correto";
     }
     return 0;
 }
