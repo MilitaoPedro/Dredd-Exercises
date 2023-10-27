@@ -6,24 +6,32 @@ Caso não existam parênteses correspondentes em todos os casos, o programa deve
 Este é um exercício de solução de problema usando pilha. A pilha deve ser parte importante da solução. Faça um programa utilizando somente a estrutura de dado pilha, respeitando todas as suas propriedades e não utilizando a STL.
 
 Entradas:
+
     Uma linha de texto (não mais do que 254 caracteres).
 Saídas:
+
     A palavra "correto" se todos tiverem correspondentes ou então a posição do erro.
 
 Exemplo de Entrada 1:
+
     func(x, (y+3)*4)
 
 Exemplo de Saída 1:
+
     correto
 
 Exemplo de Entrada 2:
+
     (idw ( dpq() sho
 
 Exemplo de Saída 2:
+
     5
 
 Exemplo de Entrada 3:
+
     (12 + 3) * 4 - 2)
 
 Exemplo de Saída 3:
+
     16
