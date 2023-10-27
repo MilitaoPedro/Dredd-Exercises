@@ -1,2 +1,2 @@
-# Dredd Exercises
-C++ exercises envolving it's datas structures
+# Exercícios do Dredd
+Exercícios C++ do Dredd para treinar as diversas estruturas de dados da linguagem.
